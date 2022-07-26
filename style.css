@@ -44,6 +44,10 @@ background: linear-gradient(176deg, rgba(233,233,233,1) 12%, rgba(191,126,238,1)
 background: linear-gradient(180deg, rgba(149,70,255,1) 30%, rgba(164,246,247,1) 100%, rgba(59,178,184,1) 100%);
 padding-top: 30px;
 }
+.contenedor_4{
+    background: rgb(172,238,241);
+background: linear-gradient(180deg, rgba(172,238,241,1) 0%, rgba(247,164,180,1) 100%, rgba(213,36,83,1) 100%);
+}
 .imagen_2{
     height: 300px;
     width: 300px;
@@ -74,15 +78,25 @@ padding-top: 30px;
     width: 12rem;
     height: 3.5rem;
 }
+.button4:hover{
+    display: flex;
+    justify-content: center;
+    border: 1px #d6af60 solid;
+    width: 23rem;
+    height: 3.5rem;
+}
 .video_2{
     height: 250px;
     width: 300px;
     text-align: center; 
 }
 .dofa{
-    width: 100vh;
-    height: 45vw;
+    width: 95vh;
+    height: 40vw;
     display: flex;
     justify-content: center;
     align-items:center
+}
+.imagen_tic{
+    width:95vh;
 }
